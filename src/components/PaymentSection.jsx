@@ -10,7 +10,9 @@ const PaymentSection = ({
   taxAmount, 
   finalTotal, 
   onBackToShop, 
-  onPaymentSuccess 
+  onPaymentSuccess,
+  customerName,
+  setCustomerName 
 }) => {
   const [paymentMethod, setPaymentMethod] = useState('');
   const [paymentStatus, setPaymentStatus] = useState('');
